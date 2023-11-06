@@ -1,0 +1,10 @@
+E:\Users\Utente\Desktop\MARIANNA\progetto_info\progetto_info\bin\Debug\progetto_info.exe.config
+E:\Users\Utente\Desktop\MARIANNA\progetto_info\progetto_info\bin\Debug\progetto_info.exe
+E:\Users\Utente\Desktop\MARIANNA\progetto_info\progetto_info\bin\Debug\progetto_info.pdb
+E:\Users\Utente\Desktop\MARIANNA\progetto_info\progetto_info\obj\Debug\progetto_info.csproj.AssemblyReference.cache
+E:\Users\Utente\Desktop\MARIANNA\progetto_info\progetto_info\obj\Debug\progetto_info.Form1.resources
+E:\Users\Utente\Desktop\MARIANNA\progetto_info\progetto_info\obj\Debug\progetto_info.Properties.Resources.resources
+E:\Users\Utente\Desktop\MARIANNA\progetto_info\progetto_info\obj\Debug\progetto_info.csproj.GenerateResource.cache
+E:\Users\Utente\Desktop\MARIANNA\progetto_info\progetto_info\obj\Debug\progetto_info.csproj.CoreCompileInputs.cache
+E:\Users\Utente\Desktop\MARIANNA\progetto_info\progetto_info\obj\Debug\progetto_info.exe
+E:\Users\Utente\Desktop\MARIANNA\progetto_info\progetto_info\obj\Debug\progetto_info.pdb
