@@ -8,3 +8,13 @@ E:\Users\Utente\Desktop\MARIANNA\progetto_info\progetto_info\obj\Debug\progetto_
 E:\Users\Utente\Desktop\MARIANNA\progetto_info\progetto_info\obj\Debug\progetto_info.csproj.CoreCompileInputs.cache
 E:\Users\Utente\Desktop\MARIANNA\progetto_info\progetto_info\obj\Debug\progetto_info.exe
 E:\Users\Utente\Desktop\MARIANNA\progetto_info\progetto_info\obj\Debug\progetto_info.pdb
+C:\Users\Utente\source\repos\orologio-digitale\progetto_info\progetto_info\bin\Debug\progetto_info.exe.config
+C:\Users\Utente\source\repos\orologio-digitale\progetto_info\progetto_info\bin\Debug\progetto_info.exe
+C:\Users\Utente\source\repos\orologio-digitale\progetto_info\progetto_info\bin\Debug\progetto_info.pdb
+C:\Users\Utente\source\repos\orologio-digitale\progetto_info\progetto_info\obj\Debug\progetto_info.csproj.AssemblyReference.cache
+C:\Users\Utente\source\repos\orologio-digitale\progetto_info\progetto_info\obj\Debug\progetto_info.Form1.resources
+C:\Users\Utente\source\repos\orologio-digitale\progetto_info\progetto_info\obj\Debug\progetto_info.Properties.Resources.resources
+C:\Users\Utente\source\repos\orologio-digitale\progetto_info\progetto_info\obj\Debug\progetto_info.csproj.GenerateResource.cache
+C:\Users\Utente\source\repos\orologio-digitale\progetto_info\progetto_info\obj\Debug\progetto_info.csproj.CoreCompileInputs.cache
+C:\Users\Utente\source\repos\orologio-digitale\progetto_info\progetto_info\obj\Debug\progetto_info.exe
+C:\Users\Utente\source\repos\orologio-digitale\progetto_info\progetto_info\obj\Debug\progetto_info.pdb

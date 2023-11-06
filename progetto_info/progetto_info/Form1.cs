@@ -28,10 +28,7 @@ namespace progetto_info
             orologio.FillEllipse(Brushes.DarkGreen, X_centro - raggio - 10, Y_centro - raggio - 10, 2 * raggio + 20, 2 * raggio + 20);
             orologio.FillEllipse(Brushes.Black, X_centro - raggio - 1, Y_centro - raggio - 1, 2 * raggio + 2, 2 * raggio + 2);
             orologio.FillEllipse(Brushes.LightGray, X_centro - raggio, Y_centro - raggio, 2 * raggio, 2 * raggio);
-            /* La circonferenza dell'orologio in questo modo si basa sulle 
-             dimensioni del form e togliendo 40 non sfora dalla finestra */
 
-            // Creazione dei puntini
             for (int i = 0; i < 12; i++)
             {
                 double punti_angolo = i * Math.PI / 6;
@@ -47,7 +44,6 @@ namespace progetto_info
                 orologio.FillRectangle(Brushes.Black, (float)punti_centro_X - 1, (float)punti_centro_Y - 1, 2, 2);
             }
 
-            // Creazione dei numeri
             for (int i = 1; i <= 12; i++)
             {
                 double numeri_angolo = - i * Math.PI / 6;
@@ -75,18 +71,14 @@ namespace progetto_info
             int min = DateTime.Now.Minute;
             int sec = DateTime.Now.Second;
 
-            lancette(orologio, X_centro, Y_centro, raggio * 0.55, (h + min / 60.0) * 30, Pens.Black, (float)3.5); //Ore
-            lancette(orologio, X_centro, Y_centro, raggio * 0.85, min * 6, Pens.Black, (float)3.5); //Minuti
-            lancette(orologio, X_centro, Y_centro, raggio * 0.95, sec * 6, Pens.Orange, 2); //Secondi
-
-            Graphics c = this.CreateGraphics();
-            int X_cerchietto = ClientSize.Width / 2;
-            int Y_cerchietto = ClientSize.Height / 2;
+            lancette(orologio, X_centro, Y_centro, raggio * 0.55, (h + min / 60.0) * 30, Pens.Black, (float)3.5);
+            lancette(orologio, X_centro, Y_centro, raggio * 0.85, (min + sec / 60.0) * 6, Pens.Black, (float)3.5);
+            lancette(orologio, X_centro, Y_centro, raggio * 0.95, sec * 6, Pens.Orange, 2);
         }
 
         private void lancette(Graphics orologio, int X_centro, int Y_centro, double length, double ampiezza, Pen pen, float size)
         {
-            double angolo_rad = Math.PI / 180 * ampiezza; // angolo in radianti
+            double angolo_rad = Math.PI / 180 * ampiezza;
             int Coordinata_x = (int)(X_centro + length * Math.Sin(angolo_rad));
             int Coordinata_y = (int)(Y_centro - length * Math.Cos(angolo_rad));
             orologio.DrawLine(new Pen(pen.Color, size), X_centro, Y_centro, Coordinata_x, Coordinata_y);
